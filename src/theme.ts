@@ -8,7 +8,9 @@ const colors = {
   primary: {
     600: '#0095A9FF',
     100: '#EBFDFFFF',
-    700: '#2a69ac',
+  },
+  neutral: {
+    900: '#171A1FFF',
   },
 };
 
