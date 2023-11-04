@@ -1,5 +1,12 @@
+import Header from '../components/Header';
+
 function Chat() {
-  return <div>Chat</div>;
+  return (
+    <div>
+      <Header />
+      Chat
+    </div>
+  );
 }
 
 export default Chat;
