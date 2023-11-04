@@ -10,7 +10,7 @@ function HistoryItem() {
       gap='4'
       align='center'
       _hover={{
-        bg: 'gray.100',
+        bg: 'neutral.100',
       }}
     >
       <ChatIcon boxSize='12px' flexShrink='0' />
