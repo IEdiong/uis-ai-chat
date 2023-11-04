@@ -1,6 +1,7 @@
-import { Box, HStack } from '@chakra-ui/react';
+import { HStack } from '@chakra-ui/react';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
+import ChatContainer from '../components/ChatContainer';
 
 function Chat() {
   return (
@@ -14,9 +15,10 @@ function Chat() {
         minH='calc(100vh - 62px)'
         borderColor='indigo.500'
         borderWidth='1px'
+        columnGap='7'
       >
         <Sidebar />
-        <Box w='full'>Chat</Box>
+        <ChatContainer />
       </HStack>
     </div>
   );

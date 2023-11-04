@@ -11,6 +11,7 @@ const colors = {
   },
   neutral: {
     900: '#171A1FFF',
+    400: '#BCC1CAFF',
     100: '#0095a91f',
   },
 };
